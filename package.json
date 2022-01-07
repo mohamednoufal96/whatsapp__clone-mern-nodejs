@@ -1,0 +1,19 @@
+{
+    "name": "whatsapp__clone__backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "devStart": "nodemon server.js"
+    },
+    "author": "mohamed noufal",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.2",
+        "mongoose": "^6.1.5",
+        "nodemon": "^2.0.15",
+        "pusher": "^5.0.0"
+    }
+}
